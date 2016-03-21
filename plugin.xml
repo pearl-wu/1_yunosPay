@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="com.bais.yunos.pay"
+    version="1.0">
+
+    <name>PAY Player</name>
+    <description>YunOS PAY Plugin</description>
+    <license>pearl</license>
+    <keywords>YunOS in kyytvali</keywords>
+    <repo>https://github.com/pearl-wu/O_payPone.git</repo>
+    <issue>https://github.com/pearl-wu/O_payPone.git</issue>
+
+    <js-module src="www/yunospay.js" name="YunosPay">
+        <clobbers target="YunosPay" />
+    </js-module>
+	
+    <platform name="android">
+    	
+	<config-file target="AndroidManifest.xml" parent="/*">
+		  <uses-permission android:name="android.permission.INTERNET" />
+	</config-file>
+    	
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="YunOSOrder">
+                <param name="android-package" value="com.yunos.paydemo.activity.MainActivity"/>
+            </feature>
+        </config-file>
+        <source-file src="libs/android-support-v4.jar" target-dir="libs" />
+        <source-file src="libs/YunPay.jar" target-dir="libs" />
+		<source-file src="libs/yunospay-master.jar" target-dir="libs" />
+    </platform>
+
+</plugin>
