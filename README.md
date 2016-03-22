@@ -1,10 +1,11 @@
 # 1_yunosPay
 
 
-
-    //訂單編號//商品ID//商品名稱//商品價格(單位:分錢)//應用開發者回傳通知url
+```產生訂單
+   
   pay("20160322","01","title","1","http://xxx.xxx.xxx/xxx.php");
-  
+    //訂單編號//商品ID//商品名稱//商品價格(單位:分錢)//應用開發者回傳通知url
+    
   function pay(P_no,S_id,S_name,pri,P_url){
   	YunosPay.pay(
   		{
@@ -19,14 +20,20 @@
   		function(err){}
   	);
   }
+```  
   
   
-  
-  //取得裝置ID
-			YunosPay.iandroid(true, 
-				function(mag){ alert(mag);},
-				function(err){}
-			);		
+```取得裝置ID
+	YunosPay.iandroid(
+	  true, 
+	  function(mag){ 
+	  	console.log("device ID: " + mag);
+	  },
+	  function(err){}
+	);		
 			
-			
-  //YunosPay.change(true);
+```			
+
+```
+	YunosPay.change(true);
+```
