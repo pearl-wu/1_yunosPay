@@ -4,10 +4,10 @@ module.exports = {
 
     ENTER_OPTIONS: {
 	partner_order_no: "2016032100",
-        subject_id: "123456789",
-        subject: "百世天貓測試TV",
+        subject_id: "baistv01",
+        subject: "百世天猫测试TV",
         price: "1", 
-        partner_notify_url: "http://kyytv.ebais.com.tw/yunospay.php"
+        partner_notify_url: "http://paydemo.yundev.cn/index.php"
     },
 
     pay: function (options, successCallback, errorCallback) {
