@@ -10,6 +10,10 @@
     <keywords>YunOS in kyytvali</keywords>
     <repo>https://github.com/pearl-wu/O_payPone.git</repo>
     <issue>https://github.com/pearl-wu/O_payPone.git</issue>
+   
+    <engines>
+    	<engine name="cordova" version=">=4.0.0"/>
+    </engines>
 
     <js-module src="www/yunospay.js" name="YunosPay">
         <clobbers target="YunosPay" />
