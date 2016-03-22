@@ -17,6 +17,7 @@
 	  			price:pri,     						
 	  			partner_notify_url:P_url		
 	  		},
+	  		//回傳訊息
 	  		function(mag){alert(mag);},
 	  		function(err){}
 	  	);
@@ -35,11 +36,4 @@
 	  function(err){}
 	);		
 </script>			
-```
-
-
-```javascript
-<script type="text/javascript">
-	YunosPay.change(true);
-</script>
 ```
