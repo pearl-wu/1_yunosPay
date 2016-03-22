@@ -1,9 +1,7 @@
 # 1_yunosPay
 
-
+##產生訂單
 ```javascript
-#產生訂單
-
 <script type="text/javascript">
 	pay("20160322","01","title","1","http://xxx.xxx.xxx/xxx.php");  
 	  //訂單編號//商品ID//商品名稱//商品價格(單位:分錢)//應用開發者回傳通知url
@@ -26,8 +24,8 @@
 </script>
 ```
 
+##取得裝置ID
 ```javascript
-#取得裝置ID
 <script type="text/javascript">
 	YunosPay.iandroid(
 	  true, 
@@ -38,6 +36,7 @@
 	);		
 </script>			
 ```
+
 
 ```javascript
 <script type="text/javascript">
