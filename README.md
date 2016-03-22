@@ -1,7 +1,6 @@
 # 1_yunosPay
 
-
-產生訂單
+```產生訂單
 
 <script type="text/javascript">
 
@@ -24,7 +23,7 @@ pay("20160322","01","title","1","http://xxx.xxx.xxx/xxx.php");
   }
   
 </script>
-
+```
   
   
 ```取得裝置ID
