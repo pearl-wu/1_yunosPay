@@ -41,7 +41,7 @@
 ```javascript
 	<script type="text/javascript">
 		YunosPay.packageinfo(
-		1,	// 1:package ID ; 2:versionCode ; 3:versionName
+		1,	// 1:package ID ; 2:package version
 		function(mag){
 			console.log("device ID: " + mag);	
 		}
