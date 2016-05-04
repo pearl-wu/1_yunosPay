@@ -23,6 +23,10 @@ module.exports = {
         cordova.exec(successCallback, errorCallback, "YunOSOrder", "Iandroid", [mag]);
     },
     
+    packageinfo: function (mag, successCallback, errorCallback) {
+        cordova.exec(successCallback, errorCallback, "YunOSOrder", "Packageinfo", [mag]);
+    },
+    
     merge: function () {
         var obj = {};
         Array.prototype.slice.call(arguments).forEach(function(source) {
