@@ -48,3 +48,14 @@
 		);
 	</script>
 ```
+## Sign
+```javascript
+	<script type="text/javascript">
+	YunosPay.sign(
+		"MAG",
+		function(mag){
+			alert(mag);
+		}			
+	);
+	</script>
+```
