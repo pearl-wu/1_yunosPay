@@ -31,8 +31,7 @@
 	  true, 
 	  function(mag){ 
 	  	console.log("device ID: " + mag);
-	  },
-	  function(err){}
+	  }
 	);		
 </script>			
 ```
