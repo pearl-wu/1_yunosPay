@@ -18,8 +18,7 @@
 	  			partner_notify_url:P_url		
 	  		},
 	  		//回傳訊息
-	  		function(mag){alert(mag);},
-	  		function(err){}
+	  		function(mag){alert(mag);}
 	  	);
 	  }
 </script>
