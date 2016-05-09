@@ -57,3 +57,10 @@
 	);
 	</script>
 ```
+
+## Echo
+```javascript
+	<script type="text/javascript">
+	YunosPay.echo("context",3000);
+	</script>
+```
