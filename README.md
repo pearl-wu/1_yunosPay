@@ -61,7 +61,6 @@
 ## Echo
 ```javascript
 	<script type="text/javascript">
-				 // 預設5000毫秒
-	YunosPay.echo("context",3000);
-	</script>
+	YunosPay.echo("context",0);  // 0:約5秒 1:約9秒
+	</script> 
 ```
